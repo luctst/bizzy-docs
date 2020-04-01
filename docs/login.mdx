@@ -1,0 +1,72 @@
+---
+hide_title: true
+sidebar_label: /oauth/login
+---
+
+# Description
+*Check if an user exist in the bizzy BDD.*
+
+## Endpoint
+```
+https://bizzy.now.sh/api/oauth/login
+```
+
+
+## Methods
+This routes only accepts those methods:
+
+* **POST**
+
+
+## Body
+```js
+{
+    "mail": "mymail@gmail.com",
+    "pswd": "password"
+}
+```
+
+## Response
+:::success 200
+
+data:
+```js
+{
+    token: 12423432.23553.345
+}
+```
+:::
+
+---
+
+:::danger 401
+```js
+{
+    error: true,
+    message: "This route can only be access with POST method."
+}
+```
+:::
+
+---
+
+:::danger 400
+```js
+{
+    error: true,
+    message: "You can only have two parameters."
+}
+```
+:::
+
+
+---
+
+:::danger 422
+```js
+{
+    error: true,
+    message: "Missing a parameter"
+}
+```
+:::
