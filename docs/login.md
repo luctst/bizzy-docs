@@ -39,17 +39,6 @@ data:
 
 ---
 
-:::danger 401
-```js
-{
-    error: true,
-    message: "This route can only be access with POST method."
-}
-```
-:::
-
----
-
 :::danger 400
 ```js
 {
@@ -59,6 +48,36 @@ data:
 ```
 :::
 
+---
+
+:::danger 401
+```js
+{
+    error: true,
+    message: "This route can only be access with POST method."
+}
+```
+
+Or
+
+```js
+{
+    error: true,
+    message: "That email and password combination is incorrect."
+}
+```
+:::
+
+---
+
+:::danger 403
+```js
+{
+    error: true,
+    message: "user unknown"
+}
+```
+:::
 
 ---
 
