@@ -34,17 +34,6 @@ https://bizzy.now.sh/api/oauth/register
 
 ---
 
-:::danger 401
-```js
-{
-    error: true,
-    message: "This route can only be acces with a POST method."
-}
-```
-:::
-
----
-
 :::danger 400
 ```js
 {
@@ -59,6 +48,28 @@ Or
 {
     error: true,
     message: "Properties should be string"
+}
+```
+:::
+
+---
+
+:::danger 401
+```js
+{
+    error: true,
+    message: "This route can only be acces with a POST method."
+}
+```
+:::
+
+--- 
+
+:::danger 409
+```js
+{
+    error: true,
+    message: "User already exist"
 }
 ```
 :::
