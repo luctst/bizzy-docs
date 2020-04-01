@@ -1,6 +1,6 @@
 ---
 hide_title: true
-sidebar_label: /oauth/register
+sidebar_label: /register
 ---
 
 # Description
@@ -8,7 +8,7 @@ sidebar_label: /oauth/register
 
 ## Endpoint
 ```
-https://bizzy.now.sh/api/oauth/register
+https://bizzy.now.sh/api/register
 ```
 
 ## Method

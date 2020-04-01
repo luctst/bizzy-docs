@@ -1,6 +1,6 @@
 ---
 hide_title: true
-sidebar_label: /oauth/login
+sidebar_label: /login
 ---
 
 # Description
@@ -8,7 +8,7 @@ sidebar_label: /oauth/login
 
 ## Endpoint
 ```
-https://bizzy.now.sh/api/oauth/login
+https://bizzy.now.sh/api/login
 ```
 
 

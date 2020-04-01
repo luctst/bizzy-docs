@@ -34,4 +34,4 @@ If any of this conditions is not verifying the server will respond with one of t
 :::
 
 ## Routes
-All the API routes are available under the *Routes* section name files indicate the routes for exemple you want interact with the login endpoint you must send a request to this url `https://bizzy.now.sh/api/oauth/login`.
+All the API routes are available under the *Routes* section name files indicate the routes for exemple you want interact with the login endpoint you must send a request to this url `https://bizzy.now.sh/api/login`.
