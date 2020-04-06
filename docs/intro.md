@@ -33,5 +33,19 @@ If any of this conditions is not verifying the server will respond with one of t
 ```
 :::
 
+## Configuration
+If you're a contributor and you'll like to start fix, add, create a new features or something else on the project, make sure you have a `.env` file at the root of your folder with this variables. 
+
+```bash
+DB_URL = <bdd-url>
+MAILUSER = <mail-user-development>
+MAILMDP = <mail-mdp-development>
+```
+
+> **Note** - The values above are here as examples.
+
 ## Routes
-All the API routes are available under the *Routes* section name files indicate the routes for exemple you want interact with the login endpoint you must send a request to this url `https://bizzy.now.sh/api/login`.
+All the API routes are availables under the *Routes* section name files indicate the routes for exemple you want interact with the login endpoint you must send a request to this url `https://bizzy.now.sh/api/login`.
+
+## Found an error ?
+If something is not correct on this documentation do not hesitate to submit an issue [Here](https://github.com/luctst/bizzy-docs/issues)
