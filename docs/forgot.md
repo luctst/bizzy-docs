@@ -25,10 +25,12 @@ https://bizzy.now.sh/api/forgot
 :::success 200
 ```js
 {
-    message: "Mail sent"
+    message: "Mail send to <mail-adress>"
 }
 ```
 :::
+
+> **Note** - If server respond with a 200 code a mail will be sent to the adress enter in the `mail` body property with a link valid for one hour. If you're in development mode the mail will be send to a fake mailbox with a link valid for 5mn.
 
 ---
 
@@ -59,7 +61,7 @@ Or
 ```
 :::
 
-:::danger 401
+:::danger 405
 ```js
 {
     error: true,
@@ -68,11 +70,5 @@ Or
 ```
 :::
 
-:::danger 403
-```js
-{
-    error: true,
-    message: "Only accessible with a POST method"
-}
-```
-:::
+## Found an error ?
+If something is not correct on this documentation do not hesitate to submit an issue [Here](https://github.com/luctst/bizzy-docs/issues)
