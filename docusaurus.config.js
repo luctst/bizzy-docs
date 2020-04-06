@@ -6,6 +6,7 @@ module.exports = {
   organizationName: 'luctst', // Usually your GitHub org/user name.
   projectName: 'bizzy-docs', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     navbar: {
       title: 'bizzy',
       logo: {
