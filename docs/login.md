@@ -11,9 +11,8 @@ sidebar_label: /login
 https://bizzy.now.sh/api/login
 ```
 
-
 ## Methods
-This routes only accepts those methods:
+This routes only accepts this method:
 
 * **POST**
 
@@ -54,16 +53,18 @@ data:
 ```js
 {
     error: true,
-    message: "This route can only be access with POST method."
+    message: "That email and password combination is incorrect."
 }
 ```
+:::
 
-Or
+---
 
+:::danger 405
 ```js
 {
     error: true,
-    message: "That email and password combination is incorrect."
+    message: "This route can only be access with POST method."
 }
 ```
 :::
@@ -89,3 +90,6 @@ Or
 }
 ```
 :::
+
+## Found an error ?
+If something is not correct on this documentation do not hesitate to submit an issue [Here](https://github.com/luctst/bizzy-docs/issues)
