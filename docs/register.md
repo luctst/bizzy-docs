@@ -54,7 +54,7 @@ Or
 
 ---
 
-:::danger 401
+:::danger 405
 ```js
 {
     error: true,
@@ -73,3 +73,6 @@ Or
 }
 ```
 :::
+
+## Found an error ?
+If something is not correct on this documentation do not hesitate to submit an issue [Here](https://github.com/luctst/bizzy-docs/issues)
