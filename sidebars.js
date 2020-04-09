@@ -6,7 +6,8 @@ module.exports = {
     Routes: [
       {type: "doc", id: "login"},
       {type: "doc", id: "register"},
-      {type: "doc", id: "forgot"}
+      {type: "doc", id: "forgot"},
+      {type: "doc", id: "resetpassword"}
     ]
   }
 };
