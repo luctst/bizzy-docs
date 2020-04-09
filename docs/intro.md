@@ -28,7 +28,7 @@ If any of this conditions is not verifying the server will respond with one of t
 ```js
 {
     error: true,
-    message: "Data incorrect or missing"
+    message: "Missing data in body"
 }
 ```
 :::
