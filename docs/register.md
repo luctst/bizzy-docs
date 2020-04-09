@@ -32,6 +32,9 @@ https://bizzy.now.sh/api/register
 ```
 :::
 
+> **Note** - This will also create a `sid` cookie who expires one week later in your browser that will allow the server to check your session is valid.
+
+
 ---
 
 :::danger 400
